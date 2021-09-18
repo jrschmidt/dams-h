@@ -3,15 +3,17 @@ GEM
   specs:
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
-    puma (3.12.6)
+    nio4r (2.5.8)
+    puma (5.4.0)
+      nio4r (~> 2.0)
     rack (2.2.3)
-    rack-protection (2.0.2)
+    rack-protection (2.1.0)
       rack
-    ruby2_keywords (0.0.2)
-    sinatra (2.0.2)
+    ruby2_keywords (0.0.5)
+    sinatra (2.1.0)
       mustermann (~> 1.0)
-      rack (~> 2.0)
-      rack-protection (= 2.0.2)
+      rack (~> 2.2)
+      rack-protection (= 2.1.0)
       tilt (~> 2.0)
     tilt (2.0.10)
 
@@ -23,4 +25,4 @@ DEPENDENCIES
   sinatra
 
 BUNDLED WITH
-   1.16.1
+   1.17.3
