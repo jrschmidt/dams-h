@@ -1,2 +1,2 @@
-require './app'
+require './terrain'
 run Sinatra::Application
